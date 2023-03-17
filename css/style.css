@@ -1,0 +1,99 @@
+/* source-code-pro-regular - latin */
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fontesgoogle/fonts/source-code-pro-v21-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fontesgoogle/fonts/source-code-pro-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fontesgoogle/fonts/source-code-pro-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fontesgoogle/fonts/source-code-pro-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fontesgoogle/fonts/source-code-pro-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fontesgoogle/fonts/source-code-pro-v21-latin-regular.svg#SourceCodePro') format('svg'); /* Legacy iOS */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+
+}
+
+
+body {
+    font-family: 'Source Code PRO', sans-serif;
+    background: url("../img/background.jpg") no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+
+
+}
+.box {
+    background: #eee ;
+    padding: 4rem;
+    box-shadow: 2px 2px 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.logo {
+    margin: 10px 100px 10px 100px;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 5%;
+    margin-bottom: 5rem;
+}
+
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.box span {
+    font-size: 18px;
+
+}
+
+.box p {
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.rs {
+    display: flex;
+    justify-content: center;
+
+}
+
+.rs li {
+    margin-right: 1rem;
+}
